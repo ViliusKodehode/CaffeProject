@@ -215,7 +215,8 @@ const drinks = [
 
 function displaybreakfast() {
     const mainframediv = document.querySelector(`.mainframe`);
-    mainframediv.innerHTML = "";
+    //mainframediv.innerHTML = "";
+    mainframediv.textContent = "";
     mainframediv.style.marginTop = "20px";
 
     const headbreakfast = document.createElement("h2");
@@ -304,7 +305,8 @@ document.querySelectorAll(`.navbaritem`).forEach((item) => {
 
 function displaylunch() {
     const mainframediv = document.querySelector(`.mainframe`);
-    mainframediv.innerHTML = "";
+    //mainframediv.innerHTML = "";
+    mainframediv.textContent = "";
     mainframediv.style.marginTop = "20px";
 
     const headlunch = document.createElement("h2");
@@ -391,7 +393,8 @@ document.querySelectorAll(`.navbaritem`).forEach((item) => {
 
 function displaydinner() {
     const mainframediv = document.querySelector(`.mainframe`);
-    mainframediv.innerHTML = "";
+    //mainframediv.innerHTML = "";
+    mainframediv.textContent = "";
     mainframediv.style.marginTop = "20px";
 
     const headdinner = document.createElement("h2");
@@ -478,7 +481,8 @@ document.querySelectorAll(`.navbaritem`).forEach((item) => {
 
 function displaydrinks() {
     const mainframediv = document.querySelector(`.mainframe`);
-    mainframediv.innerHTML = "";
+    //mainframediv.innerHTML = "";
+    mainframediv.textContent = "";
     mainframediv.style.marginTop = "20px";
 
     const headdrinks = document.createElement("h2");
@@ -543,7 +547,7 @@ function displaydrinks() {
         description.style.fontSize = "1 rem";
 
         const price = document.createElement ('p');
-        price.textContent =item.price;
+        price.textContent = item.price;
         price.style.margin = "0";
         price.style.color = "#ff6347";
         price.style.fontWeight = "bold";
@@ -585,7 +589,8 @@ footer.appendChild(contact);
 
 function displaycontact() {
     const mainframediv = document.querySelector(`.mainframe`);
-    mainframediv.innerHTML = "";
+    //mainframediv.innerHTML = "";
+    mainframediv.textContent = "";
     
     const container = document.createElement(`div`);
     container.style.flexDirection = "row";
