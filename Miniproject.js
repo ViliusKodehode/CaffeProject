@@ -50,6 +50,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     const mainframe = document.querySelector(`.mainframe`);
     const headline = document.createElement(`h1`);
     headline.textContent = `Purr & Pour Caffe`;
+    headline.style.marginBottom = "30px";
     mainframe.appendChild(headline);
     const textcaffe = document.createElement(`p`);
     textcaffe.textContent =
